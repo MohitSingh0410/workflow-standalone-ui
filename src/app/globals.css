@@ -164,3 +164,14 @@ form button.active {
 form button:hover {
   background: #0e4bf1;
 } */
+@media (max-width: 767px) {
+  .collapsed {
+    width: 80px;
+    .text-2xl {
+      display: none;
+    }
+    .text-xs {
+      display: block;
+    }
+  }
+}

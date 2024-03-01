@@ -6,7 +6,6 @@ import Image from "next/image";
 import {
     Divider,} from "antd";
 import StackedBarChart from "@/Components/Charts/StackedBarChart";
-import { useRouter } from "next/navigation";
 import ProjectsList from "@/Components/Projectslists/Projectslist";
 import Resources from "@/Components/Resources/Resources";
 import Barchart from "@/Components/Charts/Barchart";
@@ -16,7 +15,7 @@ const Dashboard = () => {
     return (
         <>
             <h1 className="ml-2 uppercase text-3xl">workflow Management</h1>
-            <div className="flex flex-row gap-9 w-full">
+            <div className="flex flex-col space-y-6 md:flex-row md:gap-9 w-full">
                 <DashCards />
 
             </div>
